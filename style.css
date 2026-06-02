@@ -11,7 +11,7 @@ html{
 body{
     background:#0b1120;
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Poppins',sans-serif;
 }
 
 .custom-navbar{
@@ -169,4 +169,60 @@ body{
     color:#94a3b8;
 
     margin-top:60px;
+}
+
+.hero-title{
+    font-size:5rem;
+    font-weight:800;
+}
+
+.hero-role{
+    color:#38bdf8;
+    margin:20px 0;
+}
+
+.tech-pill{
+    display:inline-block;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:30px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+}
+
+.hero-card{
+    padding:40px;
+    border-radius:30px;
+    background:rgba(255,255,255,.06);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:0 10px 40px rgba(56,189,248,.15);
+}
+
+.stats-section{
+    padding:80px 0;
+}
+
+.stats-section h1{
+    color:#38bdf8;
+    font-size:4rem;
+    font-weight:800;
+}
+
+.project-tech span{
+    display:inline-block;
+    margin:5px;
+    padding:8px 15px;
+    border-radius:20px;
+    background:#1e293b;
+}
+
+.contact-glass{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    padding:60px;
+    border-radius:30px;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
 }

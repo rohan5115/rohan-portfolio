@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="style.css">
 
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
+
 
 <body>
 
@@ -54,37 +58,82 @@
     </nav>
 
     <!-- Hero Section -->
+
     <section class="hero">
 
-        <div class="container text-center">
+        <div class="container">
 
-            <h1 class="display-3 fw-bold gradient-text">
-                Hi, I'm Rohan Mohite 👋
-            </h1>
+            <div class="row align-items-center min-vh-100">
 
-            <h3 class="typing-text">
-                <span id="typing"></span>
-            </h3>
+                <div class="col-lg-7">
 
-            <p class="hero-description">
+                    <p class="hero-tag">
+                        👋 Welcome to my portfolio
+                    </p>
 
-                Associate Software Engineer at Tech Mahindra
+                    <h1 class="hero-title">
+                        Rohan Mohite
+                    </h1>
 
-                <br>
+                    <h2 class="hero-role">
+                        <span id="typing"></span>
+                    </h2>
 
-                Flask | REST APIs | AWS | Docker
+                    <p class="hero-description">
 
-            </p>
+                        Associate Software Engineer at Tech Mahindra
+                        specializing in Python, Flask, REST APIs,
+                        AWS and scalable backend systems.
 
-            <div class="mt-4">
+                    </p>
 
-                <a href="#projects" class="btn btn-primary btn-lg me-3">
-                    View Projects
-                </a>
+                    <div class="hero-buttons">
 
-                <a href="resume.pdf" class="btn btn-outline-light btn-lg" download>
-                    Download Resume
-                </a>
+                        <a href="#projects" class="btn btn-primary btn-lg">
+                            View Projects
+                        </a>
+
+                        <a href="resume.pdf" class="btn btn-outline-light btn-lg ms-3" download>
+                            Download Resume
+                        </a>
+
+                    </div>
+
+                    <div class="tech-stack mt-4">
+
+                        <span class="tech-pill">Python</span>
+
+                        <span class="tech-pill">Flask</span>
+
+                        <span class="tech-pill">AWS</span>
+
+                        <span class="tech-pill">Docker</span>
+
+                        <span class="tech-pill">REST APIs</span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+
+                    <div class="hero-card">
+
+                        <h3>Backend Engineer</h3>
+
+                        <hr>
+
+                        <p>2+ Years Experience</p>
+
+                        <p>AWS Certified</p>
+
+                        <p>Tech Mahindra</p>
+
+                        <p>Python Specialist</p>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -93,9 +142,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about"
-         class="container py-5"
-         data-aos="fade-up">
+    <section id="about" class="container py-5" data-aos="fade-up">
 
         <h2 class="section-title">
             About Me
@@ -111,6 +158,40 @@
 
     </section>
 
+    <section class="stats-section">
+
+        <div class="container">
+
+            <div class="row text-center">
+
+                <div class="col-md-3">
+                    <h1>2+</h1>
+                    <p>Years Experience</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>30%</h1>
+                    <p>Performance Improvement</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>2</h1>
+                    <p>Major Projects</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>AWS</h1>
+                    <p>Certified</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
     <!-- Skills Section -->
 
     <section id="skills" class="container py-5">
@@ -121,8 +202,7 @@
 
         <div class="row g-4">
 
-            <div class="col-md-3"
-     data-aos="zoom-in">
+            <div class="col-md-3" data-aos="zoom-in">
                 <div class="skill-card">
                     <h4>Backend</h4>
 
@@ -226,27 +306,41 @@
 
         <div class="row g-4">
 
-            <div class="col-md-6"
-     data-aos="fade-right">
+            <div class="col-md-6" data-aos="fade-right">
 
                 <div class="project-card">
+
+                    <div class="project-top">
+
+                        <span class="project-badge">
+                            AI Project
+                        </span>
+
+                    </div>
 
                     <h3>
                         AI Ticket Classification System
                     </h3>
 
                     <p>
-                        Built using Python, Flask and OpenAI APIs
-                        to automate support ticket categorization,
-                        urgency prediction and response suggestions.
+                        OpenAI-powered support automation
+                        using Flask APIs and intelligent
+                        ticket categorization.
                     </p>
+
+                    <div class="project-tech">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>OpenAI</span>
+
+                    </div>
 
                 </div>
 
             </div>
 
-            <div class="col-md-6"
-     data-aos="fade-left">
+            <div class="col-md-6" data-aos="fade-left">
 
                 <div class="project-card">
 
@@ -269,26 +363,28 @@
 
     <!-- Contact -->
 
-    <section id="contact" class="container py-5">
+    <section id="contact">
 
-        <h2 class="section-title">
-            Contact
-        </h2>
+        <div class="contact-glass">
 
-        <div class="contact-card">
-
-            <h4>Email</h4>
+            <h2>
+                Let's Build Something Amazing
+            </h2>
 
             <p>
-                rohanmohite2001@gmail.com
+                Open to software engineering
+                opportunities and collaborations.
             </p>
 
-            <a href="https://github.com/rohan5115" target="_blank" class="btn btn-outline-info m-2">
+            <a href="mailto:rohanmohite2001@gmail.com" class="btn btn-primary">
+                Email Me
+            </a>
+
+            <a href="https://github.com/rohan5115" target="_blank" class="btn btn-outline-light">
                 GitHub
             </a>
 
-            <a href="https://www.linkedin.com/in/rohan-mohite-18484b21b/" target="_blank"
-                class="btn btn-outline-primary m-2">
+            <a href="https://www.linkedin.com/in/rohan-mohite-18484b21b/" target="_blank" class="btn btn-outline-info">
                 LinkedIn
             </a>
 
@@ -302,12 +398,12 @@
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-<script>
-AOS.init({
-    duration:1000,
-    once:true
-});
-</script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
 </body>
 
 </html>
